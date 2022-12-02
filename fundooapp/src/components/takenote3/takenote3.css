@@ -1,0 +1,110 @@
+/* .NoteOne{
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(234, 234, 234);
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px #888888;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -150px;
+
+} */
+/* .NoteTwo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.input{
+    border: 1px solid red;
+    width: 83%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+p{
+    position: relative;
+    
+}
+h5{
+    color: black;
+   
+}
+.NoteThree{
+    border: 1px solid red;
+    width: 15%;
+    position: relative;
+    top: 0px;
+}
+.iconOne{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid red;
+   
+}
+.Childnote1{
+    width:39vw;
+    height:26vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.Childnote2{
+    width:100%;
+    height: 70%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+
+.Childnote4{
+    width:100%;
+    height: 30%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.childicon{
+    width: 80%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+
+} */
+
+@media only screen and (min-width :769px) and (max-width :1024px){
+    .NoteOne{
+        width: 25vw;
+        height: 35vh;
+    }
+}

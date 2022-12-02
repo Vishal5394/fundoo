@@ -1,0 +1,60 @@
+.head{
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(234, 234, 234);
+}
+
+.searchbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: rgb(239, 239, 239);
+    position: relative;
+    right: 100px;
+    /* border: 1px solid red; */
+}
+
+.keep{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    color: grey;
+    font-weight: lighter;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 80px;
+}
+
+.icon{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: relative; 
+}
+
+.account{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 50px;
+}

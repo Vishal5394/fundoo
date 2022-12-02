@@ -1,0 +1,143 @@
+.Main{
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid rgb(187, 186, 186);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 425px;
+    top: 100px;
+}
+
+.child1{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+   
+}
+.head{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: right;
+    align-content:flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    line-height: 0.5px;
+}
+.head h2{
+    font-size: 30px;
+}
+.head h3{
+    font-weight: lighter;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    top:-20px;
+    /* border: 1px solid red; */
+}
+#Firstname,
+#Lastname{
+    width: 140px;
+    height: 10px;
+  
+}
+.user{
+    /* border: 1px solid red; */
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    position:relative;
+    top: 20px;
+    line-height: 0.5px;
+}
+#Username{
+   width:350px;
+   height: 10px;
+   /* border: 1px solid red; */
+}
+.user p{
+    line-height: 10px;
+    font-size: 11px;
+    
+}
+.user h4{
+    color: blue;
+    font-size: 14px;
+    font-weight:30px;
+    position: relative;
+    left:10px;
+    top:5px;
+}
+.password{
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 30px;
+}
+#Password,
+#Confirm{
+    width: 140px;
+    height: 10px;
+}
+.password p{
+    line-height: 10px;
+    font-size: 11px;
+    position: relative;
+}
+
+
+.button{
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: -10px;
+    left:20px;
+    font-size: 15px;
+}
+
+.child2{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.child2 img{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid red; */
+}
+
+.child2 p{
+    width:250px;
+    font-size: 15px;
+    line-height: 20px;
+    /* border: 1px solid red; */
+}
